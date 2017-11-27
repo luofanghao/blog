@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://luofanghao.github.io/blog/2017/10/28/USC课程总结/index.html">
 <meta property="og:site_name" content="BLOG">
 <meta property="og:description" content="持续更新中… preface写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。中间也会混杂着我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。 有一个很有意思的点是，不少课程当时学的时候不断吐槽“这么简单” or “学这有p用”等等。但是等到后来接触的更多的时候，感觉的确还是tmd没什么用。。。 well，这就是上课">
-<meta property="og:updated_time" content="2017-10-28T17:27:51.000Z">
+<meta property="og:updated_time" content="2017-11-27T00:06:59.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="USC课程总结">
 <meta name="twitter:description" content="持续更新中… preface写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。中间也会混杂着我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。 有一个很有意思的点是，不少课程当时学的时候不断吐槽“这么简单” or “学这有p用”等等。但是等到后来接触的更多的时候，感觉的确还是tmd没什么用。。。 well，这就是上课">
@@ -67,6 +67,8 @@
     <br/>
     <span id="actions">
       <ul>
+        
+        <li><a class="icon" href="/blog/2017/11/26/勇者与恶龙/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" href="/blog/2016/07/24/论文笔记-《FitNets-Hints-for-Thin-Deep-Nets》/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
@@ -167,7 +169,7 @@
 <p>课程总体偏推导和证明，要说其实对刷题是没有一个直接的帮助的（除了DP这一节，DP真的是个神奇的东西），但是了解一些上层的知识，个人感觉是有潜移默化的作用的。而且说起对计算机领域的整体了解，这门课是必学的（什么东西可解，什么不可以；常用的算法，以及分析；NP之类的概念）</p>
 <blockquote>
 <p>插一句：学了这门课之后，我才能理解自己之前学的machine learning是用来解决什么问题的。举例子说明，我们有了贝叶斯公式，为什么不直接先验转后验来predict？而常常用naive bayes？就是因为直接从先验转后验是$O(2^n)$的复杂度（还是在所有feature都是binary的情况下），常常不可解。因此用naive bayes的assumption，将复杂度转为$O(n)$。</p>
-<p>很多机器学习的方法，都是有类似的特性。就是问题本身是一个非常复杂的mapping关系。但是在加入人为的 先验知识or结构限制，使得其变得可解。至于怎么加入先验，针对什么问题加什么先验，这就是大家一直在探索的了 </p>
+<p>很多机器学习的方法，都是有类似的特性。就是问题本身是一个非常复杂的mapping关系，想解决它or有效率地解决它，需要加入人为设计的方法求得一个近似解。而machine learning 实际上就是一类如何加入 过往经验 的方法。</p>
 <p>注：以上纯属个人理解。如有理解有误的地方，欢迎拍砖指教。</p>
 </blockquote>
 <h2 id="第二学期"><a href="#第二学期" class="headerlink" title="第二学期"></a>第二学期</h2><h3 id="CS596-科学计算"><a href="#CS596-科学计算" class="headerlink" title="CS596 - 科学计算"></a>CS596 - 科学计算</h3><h3 id="CS561-AI"><a href="#CS561-AI" class="headerlink" title="CS561 - AI"></a>CS561 - AI</h3>
