@@ -1,150 +1,383 @@
 <!DOCTYPE html>
-<html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
 <head>
-    <!-- so meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="持续更新中… preface写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。中间也会混杂着我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。 有一个很有意思的点是，不少课程当时学的时候不断吐槽“这么简单” or “学这有p用”等等。但是等到后来接触的更多的时候，感觉的确还是tmd没什么用。。。 well，这就是上课">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="USC," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="持续更新中… preface写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。每门课的介绍不单单会包含课程本身的介绍，中间也会混杂着从这一门课中 我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。 USC的课程质量总体还是不错的，不过目前还没有发现任何一门课上完之后会有所谓 “脱胎换骨” 的奇效。凭借一门课的知识，想">
 <meta name="keywords" content="USC">
 <meta property="og:type" content="article">
 <meta property="og:title" content="USC课程总结">
 <meta property="og:url" content="http://luofanghao.github.io/blog/2017/10/28/USC课程总结/index.html">
 <meta property="og:site_name" content="BLOG">
-<meta property="og:description" content="持续更新中… preface写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。中间也会混杂着我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。 有一个很有意思的点是，不少课程当时学的时候不断吐槽“这么简单” or “学这有p用”等等。但是等到后来接触的更多的时候，感觉的确还是tmd没什么用。。。 well，这就是上课">
-<meta property="og:updated_time" content="2017-11-27T00:06:59.000Z">
+<meta property="og:description" content="持续更新中… preface写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。每门课的介绍不单单会包含课程本身的介绍，中间也会混杂着从这一门课中 我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。 USC的课程质量总体还是不错的，不过目前还没有发现任何一门课上完之后会有所谓 “脱胎换骨” 的奇效。凭借一门课的知识，想">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-01-08T19:23:28.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="USC课程总结">
-<meta name="twitter:description" content="持续更新中… preface写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。中间也会混杂着我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。 有一个很有意思的点是，不少课程当时学的时候不断吐槽“这么简单” or “学这有p用”等等。但是等到后来接触的更多的时候，感觉的确还是tmd没什么用。。。 well，这就是上课">
-    
-    
-        
-          
-              <link rel="shortcut icon" href="/blog/images/favicon.ico">
-          
-        
-        
-          
-            <link rel="icon" type="image/png" href="/blog/images/favicon-192x192.png" sizes="192x192">
-          
-        
-        
-          
-            <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png">
-          
-        
-    
-    <!-- title -->
-    <title>USC课程总结</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="/blog/css/style.css">
-    <!-- rss -->
-    
-    
-</head>
-
-<body>
-    
-      <div id="header-post">
-  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
-  <span id="menu">
-    <span id="nav">
-      <ul>
-         
-          <li><a href="http://luofanghao.github.io">Home</a></li>
-         
-          <li><a href="/blog/">Blog</a></li>
-         
-          <li><a href="/blog/archives/">Writing</a></li>
-         
-          <li><a href="/blog/about/">AboutMe</a></li>
-        
-      </ul>
-    </span>
-    <br/>
-    <span id="actions">
-      <ul>
-        
-        
-        <li><a class="icon" href="/blog/2016/07/24/论文笔记-《FitNets-Hints-for-Thin-Deep-Nets》/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
-        
-        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
-        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">Previous post</span>
-      <span id="i-next" class="info" style="display:none;">Next post</span>
-      <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
-    </span>
-    <br/>
-    <div id="share" style="display: none">
-      <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&text=USC课程总结"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&is_video=false&description=USC课程总结"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=USC课程总结&body=Check out this article: http://luofanghao.github.io/blog/2017/10/28/USC课程总结/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&name=USC课程总结&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
-</ul>
-
-    </div>
-    <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#preface"><span class="toc-number">1.</span> <span class="toc-text">preface</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第一学期"><span class="toc-number">2.</span> <span class="toc-text">第一学期</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#EE450-计算机网络"><span class="toc-number">2.1.</span> <span class="toc-text">EE450 - 计算机网络</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CS455-编程入门"><span class="toc-number">2.2.</span> <span class="toc-text">CS455 - 编程入门</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CS570-算法"><span class="toc-number">2.3.</span> <span class="toc-text">CS570 - 算法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二学期"><span class="toc-number">3.</span> <span class="toc-text">第二学期</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#CS596-科学计算"><span class="toc-number">3.1.</span> <span class="toc-text">CS596 - 科学计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CS561-AI"><span class="toc-number">3.2.</span> <span class="toc-text">CS561 - AI</span></a></li></ol></li></ol>
-    </div>
-  </span>
-</div>
-
-    
-    <div class="content index width mx-auto px2 my4">
-        
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header>
-    
-    <h1 class="posttitle" itemprop="name headline">
-        USC课程总结
-    </h1>
+<meta name="twitter:description" content="持续更新中… preface写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。每门课的介绍不单单会包含课程本身的介绍，中间也会混杂着从这一门课中 我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。 USC的课程质量总体还是不错的，不过目前还没有发现任何一门课上完之后会有所谓 “脱胎换骨” 的奇效。凭借一门课的知识，想">
 
 
 
-    <div class="meta">
-      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">BLOG</span>
-      </span>
-      
-    <div class="postdate">
-        <time datetime="2017-10-28T16:57:04.000Z" itemprop="datePublished">2017-10-28</time>
-    </div>
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
 
 
-      
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/USC/">USC</a>
-    </div>
+
+  <link rel="canonical" href="http://luofanghao.github.io/blog/2017/10/28/USC课程总结/"/>
 
 
-    </div>
-  </header>
+
+
+
+  <title>USC课程总结 | BLOG</title>
   
 
-  <div class="content" itemprop="articleBody">
-    <p>持续更新中…</p>
-<h2 id="preface"><a href="#preface" class="headerlink" title="preface"></a>preface</h2><p>写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。中间也会混杂着我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。</p>
-<p>有一个很有意思的点是，不少课程当时学的时候不断吐槽“这么简单” or “学这有p用”等等。但是等到后来接触的更多的时候，感觉的确还是tmd没什么用。。。</p>
-<p>well，这就是上课的缺点吧，想让自己的知识储备更贴合自己的需要，还是得多自学啊。</p>
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/blog/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/blog/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/blog/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/blog/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://luofanghao.github.io/blog/blog/2017/10/28/USC课程总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fanghao Luo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/blog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">USC课程总结</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-28T09:57:04-07:00">
+                2017-10-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/USC/" itemprop="url" rel="index">
+                    <span itemprop="name">USC</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>持续更新中…</p>
+<h2 id="preface"><a href="#preface" class="headerlink" title="preface"></a>preface</h2><p>写这篇文章的主要动机是回顾一下我在USC选的课，以及这些课给我（一个转专业的学生）带来了什么。每门课的介绍不单单会包含课程本身的介绍，中间也会混杂着从这一门课中 我对Computer Science的理解，以及对自己职业发展，还需要什么知识 的想法。</p>
+<p>USC的课程质量总体还是不错的，不过目前还没有发现任何一门课上完之后会有所谓 “脱胎换骨” 的奇效。凭借一门课的知识，想在那个领域有所了解（入门）是可以的，但是远远不够促成这个领域的 engineer 或者 researcher（熟练）。想要达到熟练的水准，还需要自己多了解，多练习。</p>
+<h2 id="第二学期"><a href="#第二学期" class="headerlink" title="第二学期"></a>第二学期</h2><h3 id="CS596-科学计算"><a href="#CS596-科学计算" class="headerlink" title="CS596 - 科学计算"></a>CS596 - 科学计算</h3><p>这门课是一个大而全的<code>scientific computation + visulization</code>入门，其内容包括：</p>
+<ul>
+<li>Parallel Computing (简化版<a href="https://sites.google.com/a/lbl.gov/cs267-spring-2017/" target="_blank" rel="external">UCB CS267</a>)</li>
+<li>MPI, OpenMP, CUDA练习</li>
+<li>Grid/cloud scientific computing （停留在介绍层次）</li>
+<li>OpenGL</li>
+</ul>
+<p>课程的主线是顺着 <code>molecular dynamics</code> algorithms进行的。从一开始的单机版，然后开始加入MPI, OpenMP, CUDA并行化，最后出来一个多机多线程的程序。</p>
+<p>不得不说内容还是比较浅，练习也都有老师带着做，几乎没有难度了。</p>
+<h3 id="CS561-AI"><a href="#CS561-AI" class="headerlink" title="CS561 - AI"></a>CS561 - AI</h3><p>很喜欢的课！AI方面的overview课程。在上这门课之前我已经有了一些machine learning 和 deep learning (<code>stanford CS229</code>, <code>stanford CS231n</code>)的知识。这门AI课带给我的收获就是 AI发展的各个方向整体了解。课程架构如下：</p>
+<ol>
+<li>从search问题开始讲起。几乎所有的问题都可以化成search型来解，但是有些问题，exp复杂度。于是就有了各种各样的search算法，从complete的，到带heuristic的。遗传算法，以及游戏中用到很多的Minimax。</li>
+<li>Logic学派（符号主义）的东西：constraints，reasoning, inference。Propositional logic，First-Order logic, Fuzzy logic。</li>
+<li><p>machine learning：</p>
+<ul>
+<li>频率学派的一些各种算法模型，包括neural networks。</li>
+<li>贝叶斯学派，Bayesian Network, PGM</li>
+<li>这一部分其实不太清楚该怎么归：EM算法，reinforcement learning。</li>
+</ul>
+</li>
+</ol>
+<h4 id="自己对这三个部分的感受："><a href="#自己对这三个部分的感受：" class="headerlink" title="自己对这三个部分的感受："></a>自己对这三个部分的感受：</h4><p>第一个部分其实是基本功，必然要去了解的，这门课这一块也讲的不错，个人认为掌握的还行；</p>
+<p>第二部分logic，其实就有点分派别的意思了。近些年来大家一提到AI可能就是机器学习深度学习，然而其实是AI漫漫长河的一个分支流派吧，只不过目前兴起。logic算是传统经典AI的流派，也有不少不错的成品：比如theorem solver，能够求解，证明定理。是有其独到之处的（比如这个theorem solver想通过机器学习的方式来实现，至少我感觉不可能）。至于为什么现在不火，我猜极大可能性是因为太精细，100%的正确率是有代价的，然而在实际运用过程中往往太多dirty work，成品不容易deploy到实际生产环境中。</p>
+<p>第三部分machine learning。这个近些年来很火，计算量的大幅提升，数据源源不断的世界。而machine learning大概是天生适合data-driven的环境，deep learning更是如此吧。这门课这个部分的笔墨我觉得可能有点太少了，很多地方可能连入门都没有，扔下一堆公式草草带过。最气的是这个部分没有布置编程练习。。</p>
+<h4 id="一点对AI的想法："><a href="#一点对AI的想法：" class="headerlink" title="一点对AI的想法："></a>一点对AI的想法：</h4><p>首先，it is not possible that “AI will rule the world”. 《终结者》《机械姬》这些也就是电影而已，甚至像《西部世界》这种类人机器人，我也觉得应该是不可能出现的（至少在我有生之年hh），除非多年之后AI的发展走上了一条新道路，否则按照现在的道路的话，不可能。</p>
+<p>但是未来中，各种AI技术，是很有可能成为“武装”，融入到我们日常生活中，融入到各种传统领域的。比如很多CV技术，人脸识别，图像分割，能够丢到安防，加密，视频处理等环境中。目前的AI市场还处于一个“野蛮生长”的时期，各个公司互相发展，竞争：他研究他的算法，你出你的API，我出我的一体机。市场也还没有一些协议，能够让所有的这些组件有机结合起来。但是发展到一定时期，我坚信会有一些协议的出现，形成一个完善的市场，就像零部件生产以及组装一样。这个时期，AI技术会最大化地融入我们所有人的生活。</p>
+<p>现在可以说是AI的“乱世”。当然，作为从业者，“乱世”可能是机会最多的时候。</p>
 <h2 id="第一学期"><a href="#第一学期" class="headerlink" title="第一学期"></a>第一学期</h2><h3 id="EE450-计算机网络"><a href="#EE450-计算机网络" class="headerlink" title="EE450 - 计算机网络"></a>EE450 - 计算机网络</h3><p>很全面，然而大部分都是在讲物理层的东西，现在已经很多都不记得了。。叹气</p>
-<p>大作业是写socket传输信息，这个倒是还有点用。后来在学并行计算的时候，发现MPI的传输<code>MPI_Send()</code>, <code>MPI_Recv()</code>，貌似就是把socket传输包了包。</p>
+<p>大作业是写socket传输信息。后来在学并行计算的时候，发现MPI的传输<code>MPI_Send()</code>, <code>MPI_Recv()</code>，貌似就是把socket传输包了包。</p>
 <p>目前感觉有用的部分：</p>
 <ol>
 <li>整体计算机网络的了解，各种术语，各种技术是在解决什么问题等</li>
-<li>TCP, UDP, HTTP各种协议吧</li>
+<li>TCP, UDP, HTTP各种协议</li>
 <li>socket编程</li>
 </ol>
 <h3 id="CS455-编程入门"><a href="#CS455-编程入门" class="headerlink" title="CS455 - 编程入门"></a>CS455 - 编程入门</h3><p>这门课的全称为<code>Introduction to Programming Systems Design</code>，内容主要涵盖：</p>
@@ -153,126 +386,395 @@
 <li>数据结构算法</li>
 <li>以及OOD</li>
 </ul>
-<p>对于当时的我来说，这门课已经有点过于简单了，以上的几个点都有概括，但是都很浅。。比我自己已经掌握的东西多不了多少所以很气。但是这门课对于一个新手来讲，还是有不少帮助的，除了上述几个点：</p>
+<p>这门课其实有点过于简单了，以上的几个点都有概括，但都很浅。但是这门课对于一个新手来讲，还是有不少帮助的，除了上述几个点：</p>
 <ol>
 <li>这门课有很多的编程练习</li>
 <li>会比较强调coding style和documentation。对养成好的编程风格有好处</li>
-<li>考试手写代码，对面试也有一定帮助（233</li>
+<li>考试手写代码，对面试也有一定帮助</li>
 </ol>
-<p>总的来说就是一门入门课吧，是UCB CS61B这门课的削弱低配版。。</p>
+<p>总的来说就是一门入门课吧，是名课<code>UCB CS61B</code>这门课的削弱低配版。。</p>
 <h3 id="CS570-算法"><a href="#CS570-算法" class="headerlink" title="CS570 - 算法"></a>CS570 - 算法</h3><p>是我第一学期最喜欢，觉得最有用的一门课了。内容呢其实就是对算法的一个全面介绍，前置要求是懂基本的数据结构算法。</p>
 <blockquote>
 <p>插一句题外话：其实对于无基础的同学，应该要求455上完再上570的。这个我跟学校反应过，但是他们可能也没有办法。所以还是非常建议usc-37的同学，在入学之前把基础补好。比如上掉UCB 61B，觉得这个load太大的话，可以上Stanford CS106B（我当时选择的是这个）。总之就是把编程基础+数据结构补起来。</p>
 </blockquote>
 <p>课程总体偏推导和证明，要说其实对刷题是没有一个直接的帮助的（除了DP这一节，DP真的是个神奇的东西），但是了解一些上层的知识，个人感觉是有潜移默化的作用的。而且说起对计算机领域的整体了解，这门课是必学的（什么东西可解，什么不可以；常用的算法，以及分析；NP之类的概念）</p>
 <blockquote>
-<p>插一句：学了这门课之后，我才能理解自己之前学的machine learning是用来解决什么问题的。举例子说明，我们有了贝叶斯公式，为什么不直接先验转后验来predict？而常常用naive bayes？就是因为直接从先验转后验是$O(2^n)$的复杂度（还是在所有feature都是binary的情况下），常常不可解。因此用naive bayes的assumption，将复杂度转为$O(n)$。</p>
-<p>很多机器学习的方法，都是有类似的特性。就是问题本身是一个非常复杂的mapping关系，想解决它or有效率地解决它，需要加入人为设计的方法求得一个近似解。而machine learning 实际上就是一类如何加入 过往经验 的方法。</p>
-<p>注：以上纯属个人理解。如有理解有误的地方，欢迎拍砖指教。</p>
+<p>插一句：学了这门课之后，我才能理解自己之前学的一些零零碎碎的知识是用来做什么的，以及它们的局限性是在哪里。 以machine learning为例，比如说，我们有了贝叶斯公式，为什么不直接先验转后验来predict？而常常用naive bayes？就是因为直接从先验转后验是exponential的复杂度，实际运用中常常不可用。因此会有各种assumption来化简问题，降低复杂度，比如用naive bayes。</p>
 </blockquote>
-<h2 id="第二学期"><a href="#第二学期" class="headerlink" title="第二学期"></a>第二学期</h2><h3 id="CS596-科学计算"><a href="#CS596-科学计算" class="headerlink" title="CS596 - 科学计算"></a>CS596 - 科学计算</h3><h3 id="CS561-AI"><a href="#CS561-AI" class="headerlink" title="CS561 - AI"></a>CS561 - AI</h3>
-  </div>
-</article>
 
-
-
+      
     </div>
     
-      <div id="footer-post-container">
-  <div id="footer-post">
+    
+    
 
-    <div id="nav-footer" style="display: none">
-      <ul>
-         
-          <li><a href="http://luofanghao.github.io">Home</a></li>
-         
-          <li><a href="/blog/">Blog</a></li>
-         
-          <li><a href="/blog/archives/">Writing</a></li>
-         
-          <li><a href="/blog/about/">AboutMe</a></li>
-        
-      </ul>
-    </div>
+    
 
-    <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#preface"><span class="toc-number">1.</span> <span class="toc-text">preface</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第一学期"><span class="toc-number">2.</span> <span class="toc-text">第一学期</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#EE450-计算机网络"><span class="toc-number">2.1.</span> <span class="toc-text">EE450 - 计算机网络</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CS455-编程入门"><span class="toc-number">2.2.</span> <span class="toc-text">CS455 - 编程入门</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CS570-算法"><span class="toc-number">2.3.</span> <span class="toc-text">CS570 - 算法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二学期"><span class="toc-number">3.</span> <span class="toc-text">第二学期</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#CS596-科学计算"><span class="toc-number">3.1.</span> <span class="toc-text">CS596 - 科学计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CS561-AI"><span class="toc-number">3.2.</span> <span class="toc-text">CS561 - AI</span></a></li></ol></li></ol>
-    </div>
+    
 
-    <div id="share-footer" style="display: none">
-      <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&text=USC课程总结"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&is_video=false&description=USC课程总结"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=USC课程总结&body=Check out this article: http://luofanghao.github.io/blog/2017/10/28/USC课程总结/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&title=USC课程总结"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://luofanghao.github.io/blog/2017/10/28/USC课程总结/&name=USC课程总结&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-</ul>
+    
 
-    </div>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/USC/" rel="tag"># USC</a>
+          
+        </div>
+      
 
-    <div id="actions-footer">
-      <ul>
-        <li id="toc"><a class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
-        <li id="share"><a class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
-        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
-        <li id="menu"><a class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
-      </ul>
-    </div>
+      
+      
+      
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2016/07/24/论文笔记-《FitNets-Hints-for-Thin-Deep-Nets》/" rel="next" title="论文笔记 《FitNets- Hints for Thin Deep Nets》">
+                <i class="fa fa-chevron-left"></i> 论文笔记 《FitNets- Hints for Thin Deep Nets》
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Fanghao Luo</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/blog/archives/">
+              
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/blog/categories/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#preface"><span class="nav-number">1.</span> <span class="nav-text">preface</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二学期"><span class="nav-number">2.</span> <span class="nav-text">第二学期</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#CS596-科学计算"><span class="nav-number">2.1.</span> <span class="nav-text">CS596 - 科学计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CS561-AI"><span class="nav-number">2.2.</span> <span class="nav-text">CS561 - AI</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#自己对这三个部分的感受："><span class="nav-number">2.2.1.</span> <span class="nav-text">自己对这三个部分的感受：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#一点对AI的想法："><span class="nav-number">2.2.2.</span> <span class="nav-text">一点对AI的想法：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一学期"><span class="nav-number">3.</span> <span class="nav-text">第一学期</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#EE450-计算机网络"><span class="nav-number">3.1.</span> <span class="nav-text">EE450 - 计算机网络</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CS455-编程入门"><span class="nav-number">3.2.</span> <span class="nav-text">CS455 - 编程入门</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CS570-算法"><span class="nav-number">3.3.</span> <span class="nav-text">CS570 - 算法</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fanghao Luo</span>
+
+  
 </div>
 
-    
-    <footer id="footer">
-  <div class="footer-left">
-    Copyright &copy; 2017 Fanghao Luo
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-          <li><a href="http://luofanghao.github.io">Home</a></li>
-         
-          <li><a href="/blog/">Blog</a></li>
-         
-          <li><a href="/blog/archives/">Writing</a></li>
-         
-          <li><a href="/blog/about/">AboutMe</a></li>
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
         
-      </ul>
-    </nav>
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
   </div>
-</footer>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
 
 </body>
 </html>
-<!-- styles -->
-<link rel="stylesheet" href="/blog/lib/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="/blog/lib/meslo-LG/styles.css">
-<link rel="stylesheet" href="/blog/lib/justified-gallery/justifiedGallery.min.css">
-
-<!-- jquery -->
-<script src="/blog/lib/jquery/jquery.min.js"></script>
-<script src="/blog/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
-<script src="/blog/js/main.js"></script>
-<!-- search -->
-
-<!-- Google Analytics -->
-
-    <script type="text/javascript">
-        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-86660611-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-
-<!-- Disqus Comments -->
-
-
