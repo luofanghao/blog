@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="读书笔记," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="更新记录：  1.28完成生平，第一章 1.08准备动笔  【黑客与画家】作者 Paul Graham preface我认为本书适合所有人群看：程序员，科技从业者，教育从业者，创业者，甚至是艺术家。因为这本书并不仅仅是“一个科技创业者”的自传，也不是教你怎么好好写程序。而是在从一个很高的地方，看世界，看人文。至于科技，不过是一根中轴线，从科技的发展看到对世界的影响。 还是强烈推荐大家去读原书，就像">
+<meta name="keywords" content="读书笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【黑客与画家】读书笔记">
+<meta property="og:url" content="http://luofanghao.github.io/blog/2018/01/08/hackers-and-painters/index.html">
+<meta property="og:site_name" content="BLOG">
+<meta property="og:description" content="更新记录：  1.28完成生平，第一章 1.08准备动笔  【黑客与画家】作者 Paul Graham preface我认为本书适合所有人群看：程序员，科技从业者，教育从业者，创业者，甚至是艺术家。因为这本书并不仅仅是“一个科技创业者”的自传，也不是教你怎么好好写程序。而是在从一个很高的地方，看世界，看人文。至于科技，不过是一根中轴线，从科技的发展看到对世界的影响。 还是强烈推荐大家去读原书，就像">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-01-28T22:02:52.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【黑客与画家】读书笔记">
+<meta name="twitter:description" content="更新记录：  1.28完成生平，第一章 1.08准备动笔  【黑客与画家】作者 Paul Graham preface我认为本书适合所有人群看：程序员，科技从业者，教育从业者，创业者，甚至是艺术家。因为这本书并不仅仅是“一个科技创业者”的自传，也不是教你怎么好好写程序。而是在从一个很高的地方，看世界，看人文。至于科技，不过是一根中轴线，从科技的发展看到对世界的影响。 还是强烈推荐大家去读原书，就像">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://luofanghao.github.io/blog/2018/01/08/hackers-and-painters/"/>
+
+
+
+
+
+  <title>【黑客与画家】读书笔记 | BLOG</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">BLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/blog/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/blog/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/blog/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/blog/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://luofanghao.github.io/blog/blog/2018/01/08/hackers-and-painters/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fanghao Luo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/blog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">【黑客与画家】读书笔记</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-08T12:57:04-08:00">
+                2018-01-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/读书笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">读书笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>更新记录：</p>
+<ul>
+<li>1.28完成生平，第一章</li>
+<li>1.08准备动笔</li>
+</ul>
+<p>【黑客与画家】作者 Paul Graham</p>
+<h3 id="preface"><a href="#preface" class="headerlink" title="preface"></a>preface</h3><p>我认为本书适合所有人群看：程序员，科技从业者，教育从业者，创业者，甚至是艺术家。因为这本书并不仅仅是“一个科技创业者”的自传，也不是教你怎么好好写程序。而是在从一个很高的地方，看世界，看人文。至于科技，不过是一根中轴线，从科技的发展看到对世界的影响。</p>
+<p>还是强烈推荐大家去读原书，就像小说一样。</p>
+<p>此篇读书笔记，希望能尽可能多地记录Paul原意（原文我都会使用引用），同时加入我自己的思考。</p>
+<a id="more"></a>
+<h3 id="Paul-Graham生平"><a href="#Paul-Graham生平" class="headerlink" title="Paul Graham生平"></a>Paul Graham生平</h3><p>本科在康奈尔主修哲学，研究生／博士在哈佛计算机，AI方向。然而进展不顺利（猜测，80，90年代AI经历过低谷期），读到一半同时开始搞艺术，博士毕业之后在罗德岛设计学院暑期班学习绘画，之后更是去了佛罗伦萨美院继续学画画。</p>
+<p>不过画画并没有养活他，之后不得不返回美国，在公司担任程序员谋生，同时尝试追求艺术家梦想。</p>
+<p>后来终于决定 “首先解决收入问题”。跟朋友自己开发软件，正好赶上“互联网概念”[3]风潮兴起，创办Viaweb。争取到了融资，产品和公司走上顺利的道路，最终成功被雅虎收购。Paul的赚钱目标达成。</p>
+<p>后来由于不喜欢大公司的环境，离开了雅虎。空闲下来之后，开始在博客[1]上分享自己的技术和创业心得，受到很多人的喜欢。最受欢迎的部分被集结出版，即【黑客与画家】。</p>
+<p>05年成为天使投资人，帮助互联网创业，后来更是成立了YC[2]，坐实了“硅谷创业之父“的名头。</p>
+<h4 id="我来说说"><a href="#我来说说" class="headerlink" title="我来说说"></a>我来说说</h4><p>简单地概括Paul的生平：计算机科研–&gt;艺术家–&gt;程序员–&gt;科技型创业者–&gt;科技天使。</p>
+<p>他的前半生大概就是一个在 黑客与画家 之间徘徊的年轻人吧，PhD毕业后去追求艺术家梦想让我想起了【月亮和六便士】的主角。不过与小说中的主角不同，Paul并没有在月亮上找到安宁，还是回到了资本的洪流中获得世俗的成功。毕竟小说只是小说，很少有人有那么强烈的精神追求，还又不一般的幸运，主角光环有点强。现实生活中追求精神生活还是需要一定的物质保障的。当然我十分确信Paul心中的月亮从未离开。</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="第一章：为什么书呆子不受欢迎"><a href="#第一章：为什么书呆子不受欢迎" class="headerlink" title="第一章：为什么书呆子不受欢迎"></a>第一章：为什么书呆子不受欢迎</h3><p>在美国的校园（尤其中学）中，受欢迎的是谁？是运动明星，social达人，好看的人。至于学习优秀的好学生（我们在下文中，简称书呆子），在“受欢迎排行榜”敬陪末座。</p>
+<blockquote>
+<p>你越喜欢读书，就越不受欢迎。</p>
+</blockquote>
+<p>WHY？是妒忌吗？很可惜并不是，大家只是根本不care“聪明”。Paul给出的答案是：<strong>书呆子们并不想让自己受欢迎</strong>。</p>
+<p>可能直观上会让很多人不认同，居然有人不想让自己受欢迎？NoNo，所有人当然希望都自己能够受欢迎，但是说到真正内心深处唯一的渴望，是不同的。受欢迎的人们，内心深处的渴望也许是人脉；然而书呆子们，他们对“智力”的要求更加强大。</p>
+<blockquote>
+<p>书呆子们的目标有两重性。他们毫无疑问想让自己受欢迎，但是更重要的是聪明</p>
+</blockquote>
+<p>然而问题在于，受欢迎可不是很容易的事情。在美国的中学，孩子们为了让自己“受欢迎”付出的代价，可能跟我们在中学为高考的代价是一样的（很有趣啊是吧，是反过来的）：穿衣打扮，发型修容，party社交，等等等等，占用了他们几乎所有的时间。但即使在这样情况下，“受欢迎排行榜”依旧存在，还是有些人会排在后面，就像我们在中学，即使努力学习，还是会有很多人，真的排不上号。那这些排在后面的人怎么办呢？在美国，他们有一部分人，发掘了自己“聪明”的潜能和渴望；在中国，恰恰相反，发掘了自己“受欢迎”的一面。</p>
+<blockquote>
+<p>在普通的美国中学中，成为“受欢迎”的标准高的吓人；即使你不是很“呆”的人，相比之下，也只能算是呆子了。</p>
+</blockquote>
+<p>然后，更可怕的事情发生了：青少年往往喜欢残忍地对待他人；有共同的敌人，潜意识中人的关系会变的更加密切。运气不好的书呆子，在被群体排挤，欺凌之后，日子可想而知。</p>
+<p>那为什么在大学，以及社会上，没有了对书呆子的欺凌，甚至大家都开始对“聪明”崇拜起来了呢？</p>
+<blockquote>
+<p>当你所做的事情能产生真实的效果，那就不仅仅是好玩而已了，发现正确的答案就开始变的重要了，这正是书呆子的优势所在。</p>
+<p>我们的感受，有点像一个被重新塞进中学的成年人。不过，成年人很清楚不用在乎别人怎么想，我们就没有这种自信了。</p>
+</blockquote>
+<p>Paul认为，造成中学这一扭曲的现状，是因为培养体系的问题：孩子们已经开始有了思考，但是周围的一切看起来好像不真实，没有意义；没有一个奋斗的目标，闲下来的孩子就会惹事生非，甚至疯狂。需要改革。</p>
+<h4 id="我来说说-1"><a href="#我来说说-1" class="headerlink" title="我来说说"></a>我来说说</h4><p>这一章到此结束。总结起来很简单：书呆子以及受欢迎的孩子之间的种种，是由于社会给孩子教育环境导致的；孩子们无法接触到真实的世界，导致他们的小世界扭曲而复杂。</p>
+<p>（这里让我想起我之前写的<a href="https://luofanghao.github.io/blog/2018/01/12/true-happiness/">这篇文章</a>，看来即使是孩子，也都对“意义”有着追求。）</p>
+<p>至于改革，如何改革，那可能是教育界去着手的事情了。但是我想再多谈谈 互联网 可能在其中扮演的角色。我们知道，之所以目前相对孤立的教育环境的形成，无非是因为大人们在担心，担心什么呢？担心孩子们进入“真实的世界”把事情搞砸。人类的知识经验，一代一代的发展，我们目前想从事一项职业，都需要长达20多年的教育。似乎是一个无可避免的问题？</p>
+<p>但是在互联网，一切可能不同，它能够跨越空间的限制，实现一些在以往可能不可思议的事情。举例子而言，比如“Amazon Mechanical Turk”，不需要你有多高的技术水平，也可以参与贡献；再比如各种公开课平台，不需要非得等到严格规定的年纪，也可以学到更多的知识。这些都给当前“书呆子”们一条不错的出路，也是教育改革也许可以突破的地方。</p>
+<p>此外，关于中美教育的差异，也的确很有意思哈。在“受欢迎”和“学习好”，中美可以说是各取一个极端了。以此也衍生了很多大家的stereotype，无非是互相鄙视而已。目前看上去中国好像占下风，不过我认为只是因为国力尚弱而已。这个有机会在别的文章里展开说吧。</p>
+<h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><ul>
+<li>[1] 作者Paul 的<a href="http://www.paulgraham.com/index.html" target="_blank" rel="external">个人网站</a>，有不少自己写的文字，值得一看，知道2017年他这上面还在写文章。</li>
+<li>[2] <a href="https://zh.wikipedia.org/wiki/Y_Combinator_(公司" target="_blank" rel="external">Y Combinator 孵化器</a>)，互联网孵化器的扛鼎公司，孵化出的著名公司有：Reddit, Airbnb, Dropbox</li>
+<li>[3] 1995-2001年，互联网热潮兴起，同时也带来很多泡沫。<a href="https://zh.wikipedia.org/wiki/互聯網泡沫" target="_blank" rel="external">wiki-互联网泡沫</a></li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/读书笔记/" rel="tag"># 读书笔记</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2017/10/28/USC-course-summary/" rel="next" title="USC课程总结">
+                <i class="fa fa-chevron-left"></i> USC课程总结
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/2018/01/12/true-happiness/" rel="prev" title="谈真正的快乐">
+                谈真正的快乐 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Fanghao Luo</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/blog/archives/">
+              
+                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/blog/categories/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://luofanghao.github.io" target="_blank" title="Website">
+                      
+                        <i class="fa fa-fw fa-globe"></i>Website</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#preface"><span class="nav-number">1.</span> <span class="nav-text">preface</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Paul-Graham生平"><span class="nav-number">2.</span> <span class="nav-text">Paul Graham生平</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#我来说说"><span class="nav-number">2.1.</span> <span class="nav-text">我来说说</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#正文"><span class="nav-number"></span> <span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一章：为什么书呆子不受欢迎"><span class="nav-number">1.</span> <span class="nav-text">第一章：为什么书呆子不受欢迎</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#我来说说-1"><span class="nav-number">1.1.</span> <span class="nav-text">我来说说</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#reference"><span class="nav-number"></span> <span class="nav-text">reference</span></a></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Fanghao Luo</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
